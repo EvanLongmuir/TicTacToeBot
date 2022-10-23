@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Author: Evan Longmuir
+	Date: 04/20/2022
+	Project: Tik Tak Toe
+	Makes the layout for the about pop up window
+ -->
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tiktactoe.TikTakToeController">
+   <children>
+      <VBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="250.0" prefWidth="250.0" styleClass="default" stylesheets="@application.css">
+         <children>
+            <TextArea editable="false" prefHeight="181.0" prefWidth="235.0" text="About:&#10;A simple Tik Tak Toe program made with JavaFX&#10;The AI has a chance to go first when starting a game vs AI&#10;&#10;Author: Evan Longmuir&#10;Date: April 20, 2022" wrapText="true">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </TextArea>
+            <Button mnemonicParsing="false" onAction="#closeCurrentWindow" prefHeight="0.0" prefWidth="220.0" text="Close">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="15.0" right="15.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</Pane>

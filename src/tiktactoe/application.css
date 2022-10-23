@@ -1,0 +1,68 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+/*
+ *Author: Evan Longmuir
+ *Date: 04/20/2022
+ *Purpose: to style the tik tak toe game
+ */
+
+/*styles the buttons*/
+.button{
+	-fx-focus-color: transparent;
+	-fx-background-color: rgb(66, 66, 66); 
+	-fx-border-color: Black;
+	-fx-border-width: 2;
+	-fx-border-radius: 0;
+	-fx-font-weight: bold;
+	-fx-font-size: 36;
+	-fx-text-fill: rgb(0, 249, 0);
+}
+
+.winning-button {
+	-fx-border-color: rgb(0, 249, 0);
+	-fx-text-fill: white;
+}
+
+/*styles the menu bar and everything it contains */
+.menu-bar {
+    -fx-background-color: rgb(66, 66, 66); 
+
+}
+.menu-bar .label {
+    -fx-text-fill: rgb(0, 249, 0);
+
+}
+.menu-bar .menu-button:hover, .menu-bar .menu-button:focused, .menu-bar .menu-button:showing {
+    -fx-background-color: rgb(100, 100, 100); 
+}
+
+.menu-item {
+    -fx-text-fill:  rgb(0, 249, 0);
+    -fx-background: rgb(66, 66, 66); 
+}
+.menu-item .label{
+    -fx-text-fill:  rgb(0, 249, 0);
+}
+.menu-item:hover{
+    -fx-background-color: rgb(100, 100, 100); 
+}
+.context-menu {
+    -fx-background-color: rgb(66, 66, 66); 
+}
+
+/*styles the background of pop up windows */
+.default{
+	-fx-background-color: rgb(66, 66, 66); 
+}
+
+/*styles the text of pop up windows */
+.text-area{
+	-fx-background-color: rgb(66, 66, 66); 
+	-fx-text-fill: rgb(0, 249, 0);
+	-fx-background-radius: 0;
+	-fx-cotrol-inner-background: orange;
+}
+.text-area .content{
+	-fx-background-color: rgb(66, 66, 66); 
+	-fx-background-radius: 0;
+}
